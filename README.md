@@ -2,7 +2,7 @@
 
 **IN DEVELOPMENT**
 
-Javascript client for accessing services using [Skosmos](https://skosmos.org), like [Finto](https://finto.fi). The client provides a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)-based API for accessing the [HTTP REST API of Skosmos](https://github.com/NatLibFi/Skosmos/wiki/REST-API).
+Javascript client for accessing services using [Skosmos](https://skosmos.org), like [Finto](https://finto.fi). The client provides a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)-based interface and uses the [HTTP REST API of Skosmos](https://github.com/NatLibFi/Skosmos/wiki/REST-API) behind the scenes.
 
 
 ## Usage
