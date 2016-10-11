@@ -32,10 +32,7 @@
   },
   "dependencies": {
     "es6-polyfills": "^1.0.1",
-    "http-client-x": "^1.0.0",
-    "jjv": "^1.0.2",
-    "jjve": "^0.5.1",
-    "requirejs-plugins": "^1.0.2"
+    "http-client-x": "^1.0.1"
   },
   "devDependencies": {
     "chai": "^3.2.0",

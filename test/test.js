@@ -69,12 +69,6 @@ function factory(chai, chaiAsPromised, Object)
         expect(createFactory).to.be.a('function');
       });
 
-      it('Should throw because options are not valid', function() {
-        expect(function() {
-          createFactory();
-        }).to.throw(Error, /VALIDATION_OBJECT_REQUIRED/);
-      });
-
       it('Should return the expected object', function() {
 
         var obj = createFactory({
