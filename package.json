@@ -28,7 +28,7 @@
     "travisci": "npm run check",
     "publish-to-npm": "npm install && npm run check && npm publish",
     "combine-coverage": "istanbul-combine -d coverage/combined -r html -r lcov -r json coverage/nodejs/coverage.json coverage/browser/coverage-final.json",
-    "generate-requirejs-config": "requirejs-configurator --npm --include-dev-deps --exclude-peer-deps > test/browser/main.js"
+    "generate-requirejs-config": "requirejs-configurator --npm --include-dev-dependencies --exclude-peer-dependencies > test/browser/main.js"
   },
   "dependencies": {
     "es6-polyfills": "^2.0.0",
@@ -42,13 +42,13 @@
     "http-client-x-mock": "^1.0.0",
     "istanbul": "^0.4.2",
     "istanbul-combine": "^0.3.0",
-    "karma": "^0.13.19",
-    "karma-coverage": "^0.5.5",
-    "karma-mocha": "^0.2.1",
-    "karma-requirejs": "^0.2.3",
-    "karma-phantomjs-launcher": "^0.2.3",
+    "karma": "^1.2.0",
+    "karma-mocha": "^1.1.1",
+    "karma-coverage": "^1.1.1",
+    "karma-requirejs": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.2",
     "karma-requirejs-preprocessor": "^0.0.2",
-    "phantomjs-prebuilt": "^2.1.5",
+    "requirejs": "^2.3.3",
     "requirejs-configurator": "https://github.com/natlibfi-arlehiko/requirejs-configurator#peer-deps",
     "codeclimate-test-reporter": "^0.1.1"
   }
