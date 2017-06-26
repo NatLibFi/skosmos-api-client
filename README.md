@@ -1,9 +1,6 @@
-# Skosmos API client [![Build Status](https://travis-ci.org/NatLibFi/skosmos-api-client.svg)](https://travis-ci.org/NatLibFi/skosmos-api-client) [![Test Coverage](https://codeclimate.com/github/NatLibFi/skosmos-api-client/badges/coverage.svg)](https://codeclimate.com/github/NatLibFi/skosmos-api-client/coverage)
-
-**IN DEVELOPMENT**
+# Skosmos API client [![NPM Version](https://img.shields.io/npm/v/skosmos-api-client.svg)](https://npmjs.org/package/skosmos-api-client) [![Build Status](https://travis-ci.org/NatLibFi/skosmos-api-client.svg)](https://travis-ci.org/NatLibFi/skosmos-api-client) [![Test Coverage](https://codeclimate.com/github/NatLibFi/skosmos-api-client/badges/coverage.svg)](https://codeclimate.com/github/NatLibFi/skosmos-api-client/coverage)
 
 Javascript client for accessing services using [Skosmos](https://skosmos.org), like [Finto](https://finto.fi). The client provides a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)-based API for accessing the [HTTP REST API of Skosmos](https://github.com/NatLibFi/Skosmos/wiki/REST-API).
-
 
 ## Usage
 
@@ -61,6 +58,6 @@ npm run check
 
 ## License and copyright
 
-Copyright (c) 2016 **University Of Helsinki (The National Library Of Finland)**
+Copyright (c) 2016-2017 **University Of Helsinki (The National Library Of Finland)**
 
 This project's source code is licensed under the terms of **MIT License**.
