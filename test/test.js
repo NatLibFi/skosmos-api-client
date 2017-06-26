@@ -5,7 +5,7 @@
 * Javascript client for accessing Skosmos-based services, like Finto
 *
 * MIT License
-* Copyright (c) 2016 University Of Helsinki (The National Library Of Finland)
+* Copyright (c) 2016-2017 University Of Helsinki (The National Library Of Finland)
 *
 * Permission is hereby granted, free of charge, to any person obtaining
 * a copy of this software and associated documentation files (the
@@ -67,12 +67,6 @@ function factory(chai, chaiAsPromised, Object)
 
       it('Should be a function', function() {
         expect(createFactory).to.be.a('function');
-      });
-
-      it('Should throw because options are not valid', function() {
-        expect(function() {
-          createFactory();
-        }).to.throw(Error, /VALIDATION_OBJECT_REQUIRED/);
       });
 
       it('Should return the expected object', function() {
